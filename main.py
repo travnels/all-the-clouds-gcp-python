@@ -18,7 +18,7 @@ import webapp2
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'application/json'
-        self.response.write('{ \'test\': 123} ')
+        self.response.write({'test': 123})
 
 
 app = webapp2.WSGIApplication([
