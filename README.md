@@ -1,4 +1,4 @@
-# all-the-clouds-gcp-python
+# all-the-clouds-gcp-python - http://all-the-clouds-gcp-python.appspot.com
 
 ## Auto Deployment from Github commit:
 - Had to setup GitHub Build Trigger (Container Registry > Build Triggers > Add Trigger)
