@@ -18,7 +18,7 @@ import webapp2
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'application/json'
-        self.response.write('{\"test\": 321}')
+        self.response.write('{\"color\": \"black\"}')
 
 
 app = webapp2.WSGIApplication([
